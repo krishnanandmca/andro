@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void button(View v){
-        Intent intent = new Intent(this, Pgm7.class);
+        Intent intent = new Intent(this, Pgm3.class);
         startActivity(intent);
     }
 

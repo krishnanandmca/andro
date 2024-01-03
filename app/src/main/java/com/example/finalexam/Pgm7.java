@@ -2,6 +2,7 @@ package com.example.finalexam;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -33,6 +34,9 @@ public class Pgm7 extends AppCompatActivity implements View.OnClickListener{
             Toast.makeText(this, "The pattern doesn't matches ", Toast.LENGTH_SHORT).show();
         }else if("test".equals(username) && "Abcd@123".equals(password)){
             Toast.makeText(this, "login", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, Home.class);
+            intent.putExtra("username",username);
+            startActivity(intent);
         }
 
     }
