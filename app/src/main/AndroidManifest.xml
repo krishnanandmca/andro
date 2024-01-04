@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Finalexam"
         tools:targetApi="31">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PopupExample"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerExample"
+            android:exported="false" />
+        <activity
             android:name=".ContextP2"
             android:exported="false" />
         <activity
